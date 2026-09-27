@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Curvy</title>
+<link rel="icon" href="assets/favicon-64.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<style>
+  :root {
+    --ink: #1b1419;
+    --muted: #6b5f68;
+    --accent: #7a2f63;
+    --rule: #ece4ea;
+    --bg: #ffffff;
+    --card: #faf6f9;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #f4eff3;
+      --muted: #b3a6b0;
+      --accent: #e6789c;
+      --rule: #342a31;
+      --bg: #161214;
+      --card: #201a1e;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 32px 20px 64px;
+    background: var(--bg);
+    color: var(--ink);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 680px; margin: 0 auto; }
+  h1 { font-size: 30px; line-height: 1.2; margin: 0 0 6px; letter-spacing: -0.02em; }
+  h2 { font-size: 20px; margin: 34px 0 10px; letter-spacing: -0.01em; }
+  .updated { color: var(--muted); font-size: 15px; margin: 0 0 8px; }
+  .operator { color: var(--muted); font-size: 15px; margin: 0 0 28px; }
+  p, li { color: var(--ink); }
+  ul { padding-left: 22px; }
+  li { margin: 6px 0; }
+  a { color: var(--accent); }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-radius: 14px;
+    padding: 16px 18px;
+    margin: 20px 0;
+  }
+  .card p { margin: 0; }
+  .card p + p { margin-top: 10px; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 14px 0;
+    font-size: 16px;
+  }
+  th, td {
+    text-align: left;
+    padding: 10px 12px 10px 0;
+    border-bottom: 1px solid var(--rule);
+    vertical-align: top;
+  }
+  th { font-weight: 600; }
+  hr { border: 0; border-top: 1px solid var(--rule); margin: 40px 0 20px; }
+  footer { color: var(--muted); font-size: 15px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="updated">Curvy: Glute Scan &amp; Workout · Last updated 27 September 2026</p>
+  <p class="operator">Curvy is operated by Oskar Bruce, United Kingdom.</p>
+
+  <p>Curvy scans your glutes from two photos, builds a training plan around your results, and helps you track workouts and food. This policy explains exactly what the app does with your data, where it goes, how long it is kept, and how to delete it.</p>
+
+  <div class="card">
+    <p><strong>The short version.</strong> Curvy has no accounts and no advertising or analytics trackers. Your scan photos are sent to OpenAI to be scored and are not stored on our servers. Your scan results, onboarding answers and saved meal photos are stored on our servers, linked only to a random ID created by the app, not to your name, email or Apple ID.</p>
+    <p>We do not sell your data or share it for advertising.</p>
+  </div>
+
+  <h2>The random app ID</h2>
+  <p>When you first use Curvy, the app creates a random identifier and keeps it on your iPhone. It is sent with scans, food analysis and your onboarding answers so we can keep your results together and apply fair-use limits. It is not your Apple ID, it is not an advertising identifier, and it is not linked to your name or email. Deleting the app deletes it; a reinstall creates a new one.</p>
+
+  <h2>Scan photos</h2>
+  <p>A Curvy Scan uses two photos of you: one from behind and one from the side. The app asks you to wear tight leggings and a fitted top.</p>
+  <ul>
+    <li><strong>On your iPhone.</strong> Pose and framing guidance while you take the photos is worked out on your iPhone. The app keeps your latest pair of scan photos in its own storage on your iPhone so it can show them to you; each new scan replaces them.</li>
+    <li><strong>For scoring.</strong> To score a scan, the app sends a resized copy of both photos (no larger than 1024 pixels) to our scoring service, which sends them to OpenAI's API. OpenAI rates each zone and returns short written reasons for its ratings.</li>
+    <li><strong>Not stored by us.</strong> Our service does not save your scan photos. OpenAI keeps API requests, including images, in abuse-monitoring logs for up to 30 days, unless the law requires longer, and then deletes them. OpenAI processes them as our service provider and does not use them to train its models.</li>
+    <li><strong>What we do keep.</strong> We store the resulting scores, the ratings from each scoring pass and the written reasons, linked to your random app ID, so we can compare each new scan with your earlier ones. These are text and numbers, not images.</li>
+  </ul>
+  <p>If you skip the scan, no photo of you leaves your iPhone.</p>
+
+  <h2>Meal photos and food logging</h2>
+  <ul>
+    <li><strong>Analysis.</strong> When you log a meal by photo or by typing what you ate, the app sends the photo (resized, no larger than 1024 pixels) or your text, with your random app ID, to our food service. It uses OpenAI's API to identify the foods and portion sizes, then looks up nutrition values in the public USDA FoodData Central and Open Food Facts databases. Our service does not keep the photo or text from the analysis; OpenAI's 30-day abuse-monitoring retention described above applies.</li>
+    <li><strong>Saved meal photos.</strong> When you save a meal logged from a photo, the app keeps a smaller copy (no larger than 640 pixels) on your iPhone to show next to the meal, and uploads that copy to a private storage area on our servers, in a folder named with your random app ID. This storage is not public and is not shared with anyone.</li>
+    <li><strong>Food log.</strong> Your meals, recents and favourites are stored on your iPhone. The app keeps the last 7 days of meals.</li>
+    <li><strong>Food search and barcodes.</strong> Search terms and scanned barcodes are sent to our service and looked up in USDA FoodData Central and Open Food Facts. They are not linked to your app ID. Results are cached by the search term so repeat searches are faster.</li>
+    <li><strong>Food pictures.</strong> For foods without a picture, our service may create one with OpenAI's image API from the food's name only. These pictures are shared by everyone and contain nothing about you.</li>
+  </ul>
+
+  <h2>Onboarding answers and body measurements</h2>
+  <p>During setup you answer questions about your goals, the zones you want to focus on, your experience, where you train, your equipment, how often and how long you train, what gets in your way, and your activity level. You can also enter your first name, your height and your weight.</p>
+  <ul>
+    <li>These answers are stored on your iPhone and used there to personalise your plan and estimate your calorie and protein targets.</li>
+    <li>A copy of your answers, including your first name, height and weight, is stored on our servers, linked to your random app ID, so your plan can be built and improved.</li>
+    <li>Curvy asks you to confirm you are 18 or over. It does not ask your date of birth.</li>
+  </ul>
+
+  <h2>Workouts and progress</h2>
+  <p>Completed sessions, the weights and reps you log, streaks and challenges are stored on your iPhone only. Exercise videos and thumbnails are streamed from our exercise video provider, YMove, which, like any website you load, sees your iPhone's IP address. The app does not send it anything about you.</p>
+
+  <h2>Subscriptions</h2>
+  <p>Purchases are processed by Apple and managed through RevenueCat, our subscription provider. RevenueCat receives your purchase and subscription status from Apple together with an anonymous RevenueCat ID. We never receive your name, email or payment card details; those stay with Apple.</p>
+
+  <h2>What Curvy does not do</h2>
+  <ul>
+    <li>No accounts, sign-in or email address required.</li>
+    <li>No advertising, no advertising identifier and no cross-app tracking.</li>
+    <li>No analytics or crash-reporting services.</li>
+    <li>No access to Apple Health, your location, contacts or microphone.</li>
+    <li>No access to your photo library. If you choose a photo instead of taking one, Apple's photo picker gives the app only the photo you pick.</li>
+  </ul>
+
+  <h2>Service providers</h2>
+  <p>We use the following providers, and no others, to run Curvy:</p>
+  <table>
+    <tr>
+      <th>Provider</th>
+      <th>What it does with your data</th>
+    </tr>
+    <tr>
+      <td>Supabase</td>
+      <td>Hosts our servers, database and private storage (your scan results, onboarding answers and saved meal photos). Like any server, it processes your IP address when the app connects, and keeps short-lived technical logs.</td>
+    </tr>
+    <tr>
+      <td>OpenAI</td>
+      <td>Scores scan photos, identifies foods in meal photos and text, and creates generic food pictures from food names.</td>
+    </tr>
+    <tr>
+      <td>RevenueCat</td>
+      <td>Manages subscription status.</td>
+    </tr>
+    <tr>
+      <td>Apple</td>
+      <td>Delivers the app and processes payments.</td>
+    </tr>
+    <tr>
+      <td>YMove</td>
+      <td>Streams exercise videos and thumbnails.</td>
+    </tr>
+    <tr>
+      <td>USDA FoodData Central and Open Food Facts</td>
+      <td>Public nutrition databases. Our service sends them food names, search terms and barcodes, never anything linked to you.</td>
+    </tr>
+  </table>
+  <p>These providers process data on our behalf, under their terms of service, only to provide the features described here. Some of them are based outside the UK, including in the United States, so your data may be processed there.</p>
+
+  <h2>How long data is kept</h2>
+  <table>
+    <tr>
+      <th>Data</th>
+      <th>Retention</th>
+    </tr>
+    <tr>
+      <td>Scan photos sent for scoring</td>
+      <td>Not stored by our service. OpenAI keeps API requests for up to 30 days for abuse monitoring, unless the law requires longer, then deletes them.</td>
+    </tr>
+    <tr>
+      <td>Meal photos and text sent for analysis</td>
+      <td>Not stored by our service. OpenAI's 30-day abuse-monitoring retention applies.</td>
+    </tr>
+    <tr>
+      <td>Scan results, ratings and written reasons</td>
+      <td>Kept on our servers, linked to your random app ID, until you ask us to delete them.</td>
+    </tr>
+    <tr>
+      <td>Onboarding answers, including name, height and weight</td>
+      <td>Kept on our servers, linked to your random app ID, until you ask us to delete them.</td>
+    </tr>
+    <tr>
+      <td>Saved meal photos</td>
+      <td>Kept in private storage on our servers, in your random app ID's folder, until you ask us to delete them.</td>
+    </tr>
+    <tr>
+      <td>Food analysis usage records</td>
+      <td>A record of each analysis (your random app ID, the time and the amount of AI processing used) is kept to apply fair-use limits and manage costs, until you ask us to delete it.</td>
+    </tr>
+    <tr>
+      <td>Everything stored on your iPhone</td>
+      <td>Kept until you delete it or delete the app. Meal history is limited to the last 7 days.</td>
+    </tr>
+    <tr>
+      <td>Subscription status</td>
+      <td>Held by RevenueCat and Apple for as long as the subscription record exists.</td>
+    </tr>
+  </table>
+
+  <h2>Deleting your data</h2>
+  <ul>
+    <li><strong>On your iPhone.</strong> Deleting the Curvy app removes everything it stored on your iPhone, including your scan photos, meal photos, food log, workout history, answers and the random app ID. The <strong>Delete all my data</strong> option in the You tab clears your scores, meals and workout history from the app on this iPhone.</li>
+    <li><strong>On our servers.</strong> Because Curvy has no accounts, your server records are linked only to your random app ID. Open the app, go to <strong>You → Privacy</strong>, tap <strong>Your app ID</strong> to copy it, and email it to <a href="mailto:contactforbruce@gmail.com">contactforbruce@gmail.com</a> asking us to delete your data. Please do this before deleting the app, because deleting the app also deletes the ID and we then have no way to find your records. We will delete your scan results, onboarding answers, saved meal photos and usage records linked to that ID and confirm within one month.</li>
+    <li><strong>Subscription.</strong> Cancelling or deleting the app does not delete your purchase history, which is held by Apple.</li>
+  </ul>
+
+  <h2>Your rights (UK and EU)</h2>
+  <p>If you are in the United Kingdom or the European Economic Area, data protection law gives you the right to access, correct or delete your personal data, to receive it in a portable format, to object to or restrict how we use it, and to withdraw consent at any time. Your scan photos and body measurements are sensitive, and we only process them because you choose to use the scan and enter them. To exercise any of these rights, email <a href="mailto:contactforbruce@gmail.com">contactforbruce@gmail.com</a> and we will respond within one month. You also have the right to complain to the UK Information Commissioner's Office (<a href="https://ico.org.uk">ico.org.uk</a>) or your local supervisory authority.</p>
+
+  <h2>Children</h2>
+  <p>Curvy is for adults aged 18 and over. We do not knowingly collect data from anyone under 18. If you believe a child has used Curvy, email us and we will delete their data.</p>
+
+  <h2>Security</h2>
+  <p>Data is sent over encrypted connections. Our database and meal-photo storage are not publicly accessible. No system is perfectly secure, but we limit what we store to what the features need.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes materially, we will update this page and the date above.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about privacy, or to exercise any right above: <a href="mailto:contactforbruce@gmail.com">contactforbruce@gmail.com</a></p>
+
+  <hr>
+  <footer>
+    <p>Curvy · operated by Oskar Bruce, United Kingdom · <a href="terms.html">Terms of Use</a> · <a href="support.html">Support</a></p>
+  </footer>
+</main>
+</body>
+</html>
