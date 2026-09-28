@@ -10,4 +10,4 @@ Served via GitHub Pages from `/docs` on `main`.
 
 App source lives in a separate private repository.
 
-Contact: contactforbruce@gmail.com
+Contact: oskar@curvy-app.com
