@@ -72,13 +72,13 @@
 <body>
 <main>
   <h1>Privacy Policy</h1>
-  <p class="updated">Curvy: Glute Scan &amp; Workout · Last updated 28 September 2026</p>
+  <p class="updated">Curvy: Glute Scan &amp; Workout · Last updated 14 October 2026</p>
   <p class="operator">Curvy is operated by Oskar Bruce, United Kingdom.</p>
 
   <p>Curvy scans your glutes from two photos, builds a training plan around your results, and helps you track workouts and food. This policy explains exactly what the app does with your data, where it goes, how long it is kept, and how to delete it.</p>
 
   <div class="card">
-    <p><strong>The short version.</strong> Curvy has no accounts and no advertising or analytics trackers. Your scan and meal photos are only sent to OpenAI for analysis after you agree, and scan photos are not stored on our servers. Your scan results, onboarding answers and saved meal photos are stored on our servers, linked only to a random ID created by the app, not to your name, email or Apple ID.</p>
+    <p><strong>The short version.</strong> Curvy has no accounts and no advertising trackers; the only analytics are anonymous usage statistics (see below), which you can turn off. Your scan and meal photos are only sent to OpenAI for analysis after you agree, and scan photos are not stored on our servers. Your scan results, onboarding answers and saved meal photos are stored on our servers, linked only to a random ID created by the app, not to your name, email or Apple ID.</p>
     <p>We do not sell your data or share it for advertising.</p>
   </div>
 
@@ -92,9 +92,9 @@
   <p>A Curvy Scan uses two photos of you: one from behind and one from the side. The app asks you to wear tight leggings and a fitted top.</p>
   <ul>
     <li><strong>On your iPhone.</strong> Pose and framing guidance while you take the photos is worked out on your iPhone. The app keeps your latest pair of scan photos in its own storage on your iPhone so it can show them to you; each new scan replaces them.</li>
-    <li><strong>For scoring.</strong> To score a scan, the app sends a resized copy of both photos (no larger than 1024 pixels) to our scoring service, which sends them to OpenAI's API. OpenAI rates each zone and briefly explains each rating; those explanations are used during scoring and are not stored.</li>
+    <li><strong>For analysis.</strong> To analyse a scan, the app sends a resized copy of both photos (no larger than 1024 pixels) to our analysis service, which sends them to OpenAI's API. OpenAI rates each zone and briefly explains each rating; those explanations are used during analysis and are not stored.</li>
     <li><strong>Not stored by us.</strong> Our service does not save your scan photos. OpenAI keeps API requests, including images, in abuse-monitoring logs for up to 30 days, unless the law requires longer, and then deletes them. OpenAI processes them as our service provider and does not use them to train its models.</li>
-    <li><strong>What we do keep.</strong> We store the resulting scores and the numeric ratings from each scoring pass (plus any photo-quality tip, such as asking you to step back), linked to your random app ID, so we can compare each new scan with your earlier ones. These are numbers, not images, and we do not keep the AI's written descriptions.</li>
+    <li><strong>What we do keep.</strong> We store the resulting scan results and the numeric ratings from each analysis pass (plus any photo-quality tip, such as asking you to step back), linked to your random app ID, so we can show your progress by comparing each new scan with your first one. These are numbers, not images, and we do not keep the AI's written descriptions.</li>
   </ul>
   <p>If you skip the scan, no photo of you leaves your iPhone.</p>
 
@@ -124,14 +124,17 @@
   <h2>Our website</h2>
   <p>This policy also covers our website, <a href="https://curvy-app.com">curvy-app.com</a>. The website does not ask for your name, email or any other details.</p>
   <ul>
-    <li><strong>Analytics.</strong> The website uses Vercel Web Analytics to count page views. It does not use cookies and does not identify you or follow you across other sites. The app itself has no analytics.</li>
+    <li><strong>Analytics.</strong> The website uses Vercel Web Analytics to count page views. It does not use cookies and does not identify you or follow you across other sites.</li>
   </ul>
+
+  <h2>Usage statistics</h2>
+  <p>The app sends anonymous usage statistics to PostHog (which setup screens were reached, whether a purchase was started or completed). These are event names only: never your photos, name, answers, scan results or meals, and nothing is used to track you across apps or websites. You can turn this off in <strong>You → Privacy → Usage statistics</strong>; Delete all my data also resets it.</p>
 
   <h2>What Curvy does not do</h2>
   <ul>
     <li>No accounts, sign-in or email address required.</li>
     <li>No advertising, no advertising identifier and no cross-app tracking.</li>
-    <li>No analytics or crash-reporting services.</li>
+    <li>No crash-reporting services, and no analytics beyond the anonymous usage statistics described above.</li>
     <li>No access to Apple Health, your location, contacts or microphone.</li>
     <li>No access to your photo library. If you choose a photo instead of taking one, Apple's photo picker gives the app only the photo you pick.</li>
   </ul>
@@ -149,7 +152,7 @@
     </tr>
     <tr>
       <td>OpenAI</td>
-      <td>Scores scan photos, identifies foods in meal photos and text, and creates generic food pictures from food names.</td>
+      <td>Analyses scan photos, identifies foods in meal photos and text, and creates generic food pictures from food names.</td>
     </tr>
     <tr>
       <td>RevenueCat</td>
@@ -162,6 +165,10 @@
     <tr>
       <td>YMove</td>
       <td>Streams exercise videos and thumbnails.</td>
+    </tr>
+    <tr>
+      <td>PostHog</td>
+      <td>Anonymous usage statistics (event names only), servers in the US. Can be turned off in the app.</td>
     </tr>
     <tr>
       <td>Vercel</td>
@@ -181,7 +188,7 @@
       <th>Retention</th>
     </tr>
     <tr>
-      <td>Scan photos sent for scoring</td>
+      <td>Scan photos sent for analysis</td>
       <td>Not stored by our service. OpenAI keeps API requests for up to 30 days for abuse monitoring, unless the law requires longer, then deletes them.</td>
     </tr>
     <tr>
@@ -203,6 +210,10 @@
     <tr>
       <td>Food analysis usage records</td>
       <td>A record of each analysis (your random app ID, the time and the amount of AI processing used) is kept to apply fair-use limits and manage costs, until you delete your data in the app or ask us to.</td>
+    </tr>
+    <tr>
+      <td>Anonymous usage statistics</td>
+      <td>Kept by PostHog for up to 12 months. Not linked to your random app ID; reset when you delete your data in the app.</td>
     </tr>
     <tr>
       <td>Everything stored on your iPhone</td>
